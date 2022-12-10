@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="../CSS/contact.css">
+
+<body>
+
+    <ul>
+        <li><a href="../index.html"><img id="logo" src="../images/bglandscapinglogo.png" width="75" height="75"></a></li>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="products.html">Materials</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    
+    <h1>
+        CONTACT
+    </h1>
+
+    <div id="container" width="600" height="600">
+        <img id="homeimage" src="../images/contactpage.jpg" width="500" height="400">
+    
+
+        <form method="post" id="contactform">
+            <label for="fullname" id="fullnamelabel" name="fullnamelabel">Full Name:</label>
+            <input type="text" id="fullname" name="fullname"><br>
+
+            <label for="email" id="emaillabel" name="emaillabel">Email:</label>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="phone" id="phonelabel" name="phonelabel">Phone #:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}"><br>
+            <small for="phone" id="phoneformat" name="phoneformat">Format:3201234567</small><br>
+
+            <label for="message" id="messagelabel" name="messagelabel">Message:</label><br>
+            <textarea id="message" name="message" rows="5" columns="50"></textarea><br>
+
+            <input type="submit" id="submit" name="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
