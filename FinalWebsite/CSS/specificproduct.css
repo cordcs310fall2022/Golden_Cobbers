@@ -1,0 +1,76 @@
+/*DOCTYPE css*/
+
+body {
+    background-color: gray;
+}
+
+ul {
+    list-style-type: none;
+    background: darkslategray;
+    width: 102.5%;
+    text-align: center;
+    margin-left: -5%;
+    margin-top: -10px;
+}
+
+#logo {
+    margin-left: -7.5%;
+    margin-top: 5px;
+}
+
+li {
+    display: inline;
+    padding-right: 20px;
+    padding-left: 5px;
+    font-size: 44px;
+    text-decoration: inherit;
+}
+
+li a {
+    text-decoration: inherit;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-style: bold;
+    margin: 0;
+}
+
+#container {
+    width: 90%;
+    height: 130px;
+    margin: auto;
+    color: white;
+    border: 5px double white;
+    border-radius: 5px;
+    font-size: 28px;
+    padding: 5px;
+    text-align: center;
+}
+
+#container p {
+    display: inline;
+}
+
+#gallerycontainer {
+    width: 90%;
+    margin: auto;
+}
+
+div.gallery {
+    margin: 10px;
+    float: left;
+    width: 350px;
+    text-align: center;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 350px;
+    display: inline;
+    border: 5px double white;
+    margin: 5px;
+  }
