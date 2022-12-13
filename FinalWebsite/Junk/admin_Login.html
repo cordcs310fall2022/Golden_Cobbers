@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="../CSS/admin_css/admin_login.css">
+
+<script type="text/javascript">
+
+    function Validate(){
+
+        var isvalid = true;
+
+        if (document.forms['mainForm']['username'] == "BDGagnon"){
+
+            var isvalid = false;
+
+        }
+
+        if (document.forms['mainForm']['password'] == "******"){
+
+        var isvalid = false;
+    }   
+
+    return isvalid;
+
+    }
+
+
+</script>
+    <h1>Admin Login</h1>
+    <form id="mainForm" name="mainForm" action="./login-action.php" method="post" onsubmit="return Validate()"> 
+
+    <label for="username" id="labelforusername">Username</label> <br>
+    <input type="text" id="username" name="username"> <br>
+    <label for="password" id="labelforpassword">Password</label> <br>
+    <input type="password" id="password" name="password"> <br>
+
+    <input type="submit" value="Submit">
+    <li><a href="admin_pages/admin_home.html">Admin Login</a></li>
+
+
+    
+
+
+    </form>
+
+</html>
